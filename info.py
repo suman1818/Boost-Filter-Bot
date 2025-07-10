@@ -33,7 +33,7 @@ PREMIUM_PIC = environ.get('SUBSCRIPTION', 'https://i.imghippo.com/files/wPdPK172
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/8bc2cc53e47180bc78c10.jpg') # Scanner Code image 
 #refer time, or feffer count
 REFERAL_TIME = int(environ.get('REFERAL_USER_TIME', "2592000")) # set in seconds | already seted 1 month premium
-REFFER_POINT = int(environ.get('USER_POINT', "50")) # Set Referel point Count 
+REFFER_POINT = int(environ.get('USER_POINT', "60")) # Set Referel point Count 
 #premium Users Satuts
 premium = environ.get('PREMIUM_LOGS', '0')
 PREMIUM_LOGS = int(premium) if premium and id_pattern.search(premium) else None
